@@ -91,10 +91,10 @@ python trainer.py --sweep_id=62z9brzv --project=wandb_vgg_experiments_4 --count=
    ### Option A: Automatically select best model (based on validation accuracy) -By default
          run = get_best_run(username, project_name)
 
-Only Username and Project Name are required. Run Id if any provided will be ignored. This will fetch the run with the highest validation accuracy automatically and download the corresponding model.
+   Only Username and Project Name are required. Run Id if any provided will be ignored. This will fetch the run with the highest validation accuracy automatically and download the corresponding model.
 
    ### Option B: to download model using specific Run ID
-Comment the line above and uncomment this belwo line instead in download_model.ipynb file and also provide valid run id at the beginning
+   Comment the line above in option A and uncomment below line instead in download_model.ipynb file. Also provide valid run id at the beginning
 
          run = get_run(username, project_name, run_id)
 
