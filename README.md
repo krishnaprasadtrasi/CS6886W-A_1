@@ -98,6 +98,8 @@ python trainer.py --sweep_id=62z9brzv --project=wandb_vgg_experiments_4 --count=
 
 ### Step 4: Test the Model
 
+ Seed configuration has been set in config.json file. "seed": { "value": 42 }
+
 ```bash
 python tester.py <path_to_model>
 ```
