@@ -1,0 +1,70 @@
+Training run name: copper-sweep-6 ...
+Epoch [1/50] Train Loss: 2.0917, Train Acc: 22.78% | Val Loss: 1.7700, Val Acc: 35.95%
+Epoch [2/50] Train Loss: 1.9407, Train Acc: 29.63% | Val Loss: 1.6389, Val Acc: 41.83%
+Epoch [3/50] Train Loss: 1.8578, Train Acc: 33.21% | Val Loss: 1.6058, Val Acc: 42.14%
+Epoch [4/50] Train Loss: 1.7988, Train Acc: 35.13% | Val Loss: 1.5846, Val Acc: 43.88%
+Epoch [5/50] Train Loss: 1.7523, Train Acc: 37.27% | Val Loss: 1.5049, Val Acc: 46.33%
+Epoch [6/50] Train Loss: 1.7111, Train Acc: 38.73% | Val Loss: 1.4504, Val Acc: 47.80%
+Epoch [7/50] Train Loss: 1.6729, Train Acc: 40.20% | Val Loss: 1.4936, Val Acc: 47.54%
+Epoch [8/50] Train Loss: 1.6460, Train Acc: 41.17% | Val Loss: 1.4271, Val Acc: 49.86%
+Epoch [9/50] Train Loss: 1.6260, Train Acc: 41.65% | Val Loss: 1.3656, Val Acc: 51.93%
+Epoch [10/50] Train Loss: 1.6026, Train Acc: 42.80% | Val Loss: 1.3822, Val Acc: 51.47%
+Epoch [11/50] Train Loss: 1.5797, Train Acc: 43.77% | Val Loss: 1.3588, Val Acc: 51.44%
+Epoch [12/50] Train Loss: 1.5647, Train Acc: 44.61% | Val Loss: 1.4388, Val Acc: 50.50%
+Epoch [13/50] Train Loss: 1.5431, Train Acc: 45.31% | Val Loss: 1.3019, Val Acc: 53.59%
+Epoch [14/50] Train Loss: 1.5333, Train Acc: 45.50% | Val Loss: 1.2960, Val Acc: 54.73%
+Epoch [15/50] Train Loss: 1.5191, Train Acc: 46.10% | Val Loss: 1.2369, Val Acc: 57.28%
+Epoch [16/50] Train Loss: 1.4996, Train Acc: 46.95% | Val Loss: 1.2976, Val Acc: 55.24%
+Epoch [17/50] Train Loss: 1.4862, Train Acc: 47.30% | Val Loss: 1.2853, Val Acc: 55.65%
+Epoch [18/50] Train Loss: 1.4744, Train Acc: 47.50% | Val Loss: 1.2400, Val Acc: 57.30%
+Epoch [19/50] Train Loss: 1.4602, Train Acc: 48.48% | Val Loss: 1.3147, Val Acc: 55.29%
+Epoch [20/50] Train Loss: 1.4515, Train Acc: 48.47% | Val Loss: 1.2271, Val Acc: 57.54%
+Epoch [21/50] Train Loss: 1.4409, Train Acc: 49.04% | Val Loss: 1.2099, Val Acc: 57.81%
+Epoch [22/50] Train Loss: 1.4212, Train Acc: 49.86% | Val Loss: 1.2207, Val Acc: 57.86%
+Epoch [23/50] Train Loss: 1.4148, Train Acc: 50.06% | Val Loss: 1.1671, Val Acc: 59.49%
+Epoch [24/50] Train Loss: 1.4013, Train Acc: 50.58% | Val Loss: 1.1864, Val Acc: 58.92%
+Epoch [25/50] Train Loss: 1.4027, Train Acc: 50.93% | Val Loss: 1.1817, Val Acc: 59.35%
+Epoch [26/50] Train Loss: 1.3892, Train Acc: 51.11% | Val Loss: 1.1386, Val Acc: 60.59%
+Epoch [27/50] Train Loss: 1.3767, Train Acc: 51.51% | Val Loss: 1.1204, Val Acc: 61.41%
+Epoch [28/50] Train Loss: 1.3731, Train Acc: 51.85% | Val Loss: 1.1171, Val Acc: 61.77%
+Epoch [29/50] Train Loss: 1.3630, Train Acc: 52.11% | Val Loss: 1.1800, Val Acc: 58.98%
+Epoch [30/50] Train Loss: 1.3541, Train Acc: 52.17% | Val Loss: 1.1249, Val Acc: 60.91%
+Epoch [31/50] Train Loss: 1.3486, Train Acc: 52.64% | Val Loss: 1.0835, Val Acc: 62.37%
+Epoch [32/50] Train Loss: 1.3369, Train Acc: 53.16% | Val Loss: 1.1097, Val Acc: 61.72%
+Epoch [33/50] Train Loss: 1.3326, Train Acc: 53.05% | Val Loss: 1.1640, Val Acc: 60.42%
+Epoch [34/50] Train Loss: 1.3204, Train Acc: 53.46% | Val Loss: 1.0636, Val Acc: 63.13%
+Epoch [35/50] Train Loss: 1.3160, Train Acc: 53.82% | Val Loss: 1.0376, Val Acc: 63.35%
+Epoch [36/50] Train Loss: 1.3112, Train Acc: 53.89% | Val Loss: 1.0456, Val Acc: 63.41%
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 36, in train
+    train_model(model, trainloader, testloader, config, device, wanrun)
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 58, in train_model
+    val_loss, val_acc = test_model(model, testloader, criterion, device)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\test.py", line 12, in test_model
+    for inputs, targets in testloader:
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 494, in __iter__
+    return self._get_iterator()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 427, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 1170, in __init__
+    w.start()
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\context.py", line 336, in _Popen
+    return Popen(process_obj)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\popen_spawn_win32.py", line 95, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\queues.py", line 57, in __getstate__
+    def __getstate__(self):
+
+Exception

@@ -1,0 +1,21 @@
+Training run name: floral-sweep-4 ...
+Epoch [1/20] Train Loss: 2.2916, Train Acc: 16.66% | Val Loss: 2.0698, Val Acc: 23.92%
+Epoch [2/20] Train Loss: 2.1327, Train Acc: 22.55% | Val Loss: 1.9651, Val Acc: 28.27%
+Epoch [3/20] Train Loss: 2.0866, Train Acc: 24.80% | Val Loss: 1.9016, Val Acc: 30.17%
+Epoch [4/20] Train Loss: 2.0468, Train Acc: 26.38% | Val Loss: 1.8320, Val Acc: 32.95%
+Epoch [5/20] Train Loss: 2.0159, Train Acc: 27.34% | Val Loss: 1.7972, Val Acc: 34.29%
+Epoch [6/20] Train Loss: 1.9889, Train Acc: 28.42% | Val Loss: 1.7548, Val Acc: 35.58%
+Epoch [7/20] Train Loss: 1.9635, Train Acc: 29.55% | Val Loss: 1.7340, Val Acc: 36.69%
+Epoch [8/20] Train Loss: 1.9386, Train Acc: 30.46% | Val Loss: 1.7077, Val Acc: 37.43%
+Epoch [9/20] Train Loss: 1.9114, Train Acc: 31.64% | Val Loss: 1.6821, Val Acc: 38.24%
+Epoch [10/20] Train Loss: 1.8951, Train Acc: 32.47% | Val Loss: 1.6568, Val Acc: 39.60%
+Epoch [11/20] Train Loss: 1.8784, Train Acc: 33.12% | Val Loss: 1.6335, Val Acc: 40.42%
+Epoch [12/20] Train Loss: 1.8606, Train Acc: 33.66% | Val Loss: 1.6226, Val Acc: 41.23%
+Epoch [13/20] Train Loss: 1.8440, Train Acc: 34.32% | Val Loss: 1.5974, Val Acc: 42.08%
+Epoch [14/20] Train Loss: 1.8287, Train Acc: 34.95% | Val Loss: 1.6071, Val Acc: 41.59%
+Epoch [15/20] Train Loss: 1.8109, Train Acc: 35.67% | Val Loss: 1.5734, Val Acc: 42.68%
+Epoch [16/20] Train Loss: 1.8026, Train Acc: 35.82% | Val Loss: 1.5596, Val Acc: 43.13%
+Epoch [17/20] Train Loss: 1.7846, Train Acc: 36.70% | Val Loss: 1.5396, Val Acc: 44.27%
+Epoch [18/20] Train Loss: 1.7741, Train Acc: 36.94% | Val Loss: 1.5289, Val Acc: 44.45%
+Epoch [19/20] Train Loss: 1.7654, Train Acc: 37.31% | Val Loss: 1.5264, Val Acc: 44.95%
+Epoch [20/20] Train Loss: 1.7584, Train Acc: 37.68% | Val Loss: 1.5208, Val Acc: 45.24%

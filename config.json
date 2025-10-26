@@ -1,0 +1,44 @@
+{
+    "name": "vgg_cifar10_hyperparameter_search", 
+    "method": "bayes",
+    "metric": {
+        "name": "val_acc",
+        "goal": "maximize"
+    },
+    "parameters" :{
+      "activation":{
+          "values": ["relu", "sigmoid", "tanh", "gelu", "silu"]
+        },
+      "optimizer": {
+          "values": ["adam", "sgd", "sgd_nesterov", "adagrad", "nadam", "rmsprop"]
+          },
+      "vgg_architecture": {
+          "value": [64, 64, "M", 128, 128, "M"]
+          },
+      "dropout": {
+          "values": [0.3, 0.4, 0.5]
+          },
+      "epochs": {
+          "values": [ 20,30,50]
+          },
+      "learning_rate": {
+          "values": [0.1, 0.01, 0.001, 0.0001]
+        },
+      "batch_size": {
+                "values": [32, 64, 128, 256]
+        },
+      "batch_norm": {
+        "values": [true, false] 
+      },
+      "momentum": {
+        "values": [0.5, 0.7, 0.9]
+      },
+      "weight_decay": {
+        "values": [1e-5, 1e-4, 5e-4]
+      },
+      "num_classes": {
+        "value": 10
+      },
+          "seed": { "value": 42 }
+    }
+  }

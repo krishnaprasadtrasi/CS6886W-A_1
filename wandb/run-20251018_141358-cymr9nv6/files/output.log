@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 36, in train
+    train_model(model, trainloader, testloader, config, device, wanrun)
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 48, in train_model
+    optimizer = get_optimizer(model, config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\util.py", line 138, in get_optimizer
+    raise ValueError(f"Optimizer {optimizer_name} not supported")
+ValueError: Optimizer adamgrad not supported

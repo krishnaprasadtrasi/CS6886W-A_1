@@ -1,0 +1,40 @@
+Training run name: stoic-sweep-4 ...
+Epoch [1/20] Train Loss: 2.0633, Train Acc: 23.20% | Val Loss: 2.1869, Val Acc: 28.30%
+Epoch [2/20] Train Loss: 1.7760, Train Acc: 34.41% | Val Loss: 1.9360, Val Acc: 33.16%
+Epoch [3/20] Train Loss: 1.6773, Train Acc: 39.11% | Val Loss: 1.5939, Val Acc: 45.36%
+Epoch [4/20] Train Loss: 1.6073, Train Acc: 42.13% | Val Loss: 2.9060, Val Acc: 30.54%
+Epoch [5/20] Train Loss: 1.5559, Train Acc: 44.18% | Val Loss: 2.0580, Val Acc: 41.13%
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 36, in train
+    train_model(model, trainloader, testloader, config, device, wanrun)
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 55, in train_model
+    train_loss, train_acc = train_epoch(model, trainloader, criterion, optimizer, device)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 17, in train_epoch
+    for batch_idx, (inputs, targets) in enumerate(trainloader):
+                                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 494, in __iter__
+    return self._get_iterator()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 427, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 1170, in __init__
+    w.start()
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\context.py", line 336, in _Popen
+    return Popen(process_obj)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\popen_spawn_win32.py", line 95, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\queues.py", line 57, in __getstate__
+    def __getstate__(self):
+
+Exception

@@ -1,0 +1,12 @@
+{"time":"2025-10-20T03:04:10.3314527+05:30","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-20T03:04:10.8048725+05:30","level":"INFO","msg":"stream: created new stream","id":"5ngmp90b"}
+{"time":"2025-10-20T03:04:10.8058645+05:30","level":"INFO","msg":"handler: started","stream_id":"5ngmp90b"}
+{"time":"2025-10-20T03:04:10.8074608+05:30","level":"INFO","msg":"stream: started","id":"5ngmp90b"}
+{"time":"2025-10-20T03:04:10.8074608+05:30","level":"INFO","msg":"writer: started","stream_id":"5ngmp90b"}
+{"time":"2025-10-20T03:04:10.8082087+05:30","level":"INFO","msg":"sender: started","stream_id":"5ngmp90b"}
+{"time":"2025-10-20T03:45:38.0898439+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact vgg","runtime_seconds":1.25052},{"desc":"updating run metadata","runtime_seconds":0.001834}],"total_operations":2}}
+{"time":"2025-10-20T03:45:43.0564349+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T03:45:43.4116559+05:30","level":"INFO","msg":"stream: closing","id":"5ngmp90b"}
+{"time":"2025-10-20T03:45:43.4116559+05:30","level":"INFO","msg":"handler: closed","stream_id":"5ngmp90b"}
+{"time":"2025-10-20T03:45:43.4123968+05:30","level":"INFO","msg":"sender: closed","stream_id":"5ngmp90b"}
+{"time":"2025-10-20T03:45:43.4123968+05:30","level":"INFO","msg":"stream: closed","id":"5ngmp90b"}

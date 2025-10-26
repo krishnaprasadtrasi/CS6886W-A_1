@@ -1,0 +1,27 @@
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_setup.py:_flush():81] Configure stats pid to 19920
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_setup.py:_flush():81] Loading settings from C:\Users\DDA\.config\wandb\settings
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_setup.py:_flush():81] Loading settings from C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\wandb\settings
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_init.py:setup_run_log_directory():705] Logging user logs to C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\wandb\run-20251019_122013-0d4oxrq5\logs\debug.log
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\wandb\run-20251019_122013-0d4oxrq5\logs\debug-internal.log
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():832] calling init triggers
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():837] wandb.init called with sweep_config: {'activation': 'gelu', 'batch_norm': False, 'batch_size': 64, 'dropout': 0.4, 'epochs': 50, 'learning_rate': 0.0001, 'momentum': 0.5, 'num_classes': 10, 'optimizer': 'nadam', 'seed': 42, 'vgg_architecture': [64, 64, 'M', 128, 128, 'M'], 'weight_decay': 0.0005}
+config: {'_wandb': {}}
+2025-10-19 12:20:13,763 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():880] starting backend
+2025-10-19 12:20:16,014 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():883] sending inform_init request
+2025-10-19 12:20:16,022 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():891] backend started and connected
+2025-10-19 12:20:16,024 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_config_callback():1392] config_cb None None {'activation': 'gelu', 'batch_norm': False, 'batch_size': 64, 'dropout': 0.4, 'epochs': 50, 'learning_rate': 0.0001, 'momentum': 0.5, 'num_classes': 10, 'optimizer': 'nadam', 'seed': 42, 'vgg_architecture': [64, 64, 'M', 128, 128, 'M'], 'weight_decay': 0.0005}
+2025-10-19 12:20:16,026 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():961] updated telemetry
+2025-10-19 12:20:16,027 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-19 12:20:16,905 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-19 12:20:17,054 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-19 12:20:17,055 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-19 12:20:17,055 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-19 12:20:17,055 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-19 12:20:17,057 INFO    Thread-4 (_run_job):19920 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-19 13:05:59,764 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_finish():2275] finishing run krishnaprasad-student/wandb_vgg_experiments_3/0d4oxrq5
+2025-10-19 13:05:59,764 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_atexit_cleanup():2474] got exitcode: 1
+2025-10-19 13:05:59,764 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_restore():2456] restore
+2025-10-19 13:05:59,764 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_restore():2462] restore done
+2025-10-19 13:06:01,269 INFO    Thread-4 (_run_job):19920 [wandb_run.py:_footer_sync_info():3872] logging synced files

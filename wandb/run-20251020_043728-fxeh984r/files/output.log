@@ -1,0 +1,21 @@
+Training run name: silver-sweep-14 ...
+Epoch [1/20] Train Loss: 1.9433, Train Acc: 30.01% | Val Loss: 1.6335, Val Acc: 40.09%
+Epoch [2/20] Train Loss: 1.8082, Train Acc: 35.42% | Val Loss: 1.6623, Val Acc: 40.80%
+Epoch [3/20] Train Loss: 1.7597, Train Acc: 37.23% | Val Loss: 1.4912, Val Acc: 46.21%
+Epoch [4/20] Train Loss: 1.7228, Train Acc: 38.65% | Val Loss: 1.4318, Val Acc: 48.65%
+Epoch [5/20] Train Loss: 1.6970, Train Acc: 39.79% | Val Loss: 1.4063, Val Acc: 49.31%
+Epoch [6/20] Train Loss: 1.6725, Train Acc: 40.82% | Val Loss: 1.3777, Val Acc: 50.51%
+Epoch [7/20] Train Loss: 1.6603, Train Acc: 41.09% | Val Loss: 1.3924, Val Acc: 50.71%
+Epoch [8/20] Train Loss: 1.6422, Train Acc: 42.01% | Val Loss: 1.3481, Val Acc: 52.53%
+Epoch [9/20] Train Loss: 1.6331, Train Acc: 42.02% | Val Loss: 1.3334, Val Acc: 52.48%
+Epoch [10/20] Train Loss: 1.6248, Train Acc: 42.52% | Val Loss: 1.3319, Val Acc: 52.94%
+Epoch [11/20] Train Loss: 1.6165, Train Acc: 42.98% | Val Loss: 1.3306, Val Acc: 53.07%
+Epoch [12/20] Train Loss: 1.6089, Train Acc: 43.21% | Val Loss: 1.3150, Val Acc: 53.55%
+Epoch [13/20] Train Loss: 1.5996, Train Acc: 43.26% | Val Loss: 1.3497, Val Acc: 53.01%
+Epoch [14/20] Train Loss: 1.5958, Train Acc: 43.73% | Val Loss: 1.3507, Val Acc: 52.99%
+Epoch [15/20] Train Loss: 1.5876, Train Acc: 43.82% | Val Loss: 1.2898, Val Acc: 54.40%
+Epoch [16/20] Train Loss: 1.5812, Train Acc: 44.10% | Val Loss: 1.2951, Val Acc: 54.05%
+Epoch [17/20] Train Loss: 1.5736, Train Acc: 44.32% | Val Loss: 1.3242, Val Acc: 54.10%
+Epoch [18/20] Train Loss: 1.5705, Train Acc: 44.90% | Val Loss: 1.3097, Val Acc: 54.19%
+Epoch [19/20] Train Loss: 1.5688, Train Acc: 44.73% | Val Loss: 1.2844, Val Acc: 54.62%
+Epoch [20/20] Train Loss: 1.5617, Train Acc: 44.94% | Val Loss: 1.2896, Val Acc: 54.82%

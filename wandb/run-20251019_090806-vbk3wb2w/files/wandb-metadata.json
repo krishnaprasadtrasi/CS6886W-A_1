@@ -1,0 +1,41 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2025-10-19T03:38:06.490022Z",
+  "args": [
+    "--sweep_id=7zf0t67d",
+    "--project=wandb_vgg_experiments_2",
+    "--count=25"
+  ],
+  "program": "C:\\Users\\DDA\\Downloads\\CS6886W-sweep\\CS6886W-sweep\\trainer.py",
+  "codePath": "trainer.py",
+  "codePathLocal": "trainer.py",
+  "email": "krishnaprasad.kps@gmail.com",
+  "root": "C:\\Users\\DDA\\Downloads\\CS6886W-sweep\\CS6886W-sweep",
+  "host": "DESKTOP-59ENVD4",
+  "executable": "C:\\Users\\DDA\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce MX550",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "633348288512",
+      "used": "216756707328"
+    }
+  },
+  "memory": {
+    "total": "68388864000"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce MX550",
+      "memoryTotal": "2147483648",
+      "cudaCores": 1024,
+      "architecture": "Turing",
+      "uuid": "GPU-2cce8961-eec1-5574-8de8-8482300c2315"
+    }
+  ],
+  "cudaVersion": "12.7",
+  "writerId": "kwkt1chktrdue10wya7v3dhcakvcik9i"
+}

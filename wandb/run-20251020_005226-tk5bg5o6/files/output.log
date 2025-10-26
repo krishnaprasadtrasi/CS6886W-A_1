@@ -1,0 +1,21 @@
+Training run name: ethereal-sweep-7 ...
+Epoch [1/20] Train Loss: 1.8574, Train Acc: 31.83% | Val Loss: 1.3188, Val Acc: 52.42%
+Epoch [2/20] Train Loss: 1.4775, Train Acc: 47.40% | Val Loss: 1.1423, Val Acc: 60.92%
+Epoch [3/20] Train Loss: 1.3212, Train Acc: 53.23% | Val Loss: 1.1238, Val Acc: 63.77%
+Epoch [4/20] Train Loss: 1.2196, Train Acc: 57.08% | Val Loss: 1.2121, Val Acc: 62.25%
+Epoch [5/20] Train Loss: 1.1573, Train Acc: 59.24% | Val Loss: 0.8597, Val Acc: 71.10%
+Epoch [6/20] Train Loss: 1.1045, Train Acc: 61.30% | Val Loss: 0.8164, Val Acc: 73.17%
+Epoch [7/20] Train Loss: 1.0651, Train Acc: 62.81% | Val Loss: 0.6988, Val Acc: 75.97%
+Epoch [8/20] Train Loss: 1.0347, Train Acc: 63.74% | Val Loss: 0.7636, Val Acc: 75.48%
+Epoch [9/20] Train Loss: 0.9948, Train Acc: 65.44% | Val Loss: 0.7093, Val Acc: 76.96%
+Epoch [10/20] Train Loss: 0.9814, Train Acc: 65.83% | Val Loss: 0.5962, Val Acc: 79.54%
+Epoch [11/20] Train Loss: 0.9555, Train Acc: 66.65% | Val Loss: 0.7156, Val Acc: 76.92%
+Epoch [12/20] Train Loss: 0.9396, Train Acc: 67.46% | Val Loss: 0.6165, Val Acc: 79.87%
+Epoch [13/20] Train Loss: 0.9158, Train Acc: 68.10% | Val Loss: 0.7179, Val Acc: 78.17%
+Epoch [14/20] Train Loss: 0.9176, Train Acc: 68.06% | Val Loss: 0.5908, Val Acc: 79.92%
+Epoch [15/20] Train Loss: 0.8971, Train Acc: 68.84% | Val Loss: 0.5868, Val Acc: 80.35%
+Epoch [16/20] Train Loss: 0.8797, Train Acc: 69.34% | Val Loss: 0.6402, Val Acc: 79.14%
+Epoch [17/20] Train Loss: 0.8787, Train Acc: 69.26% | Val Loss: 0.5638, Val Acc: 81.46%
+Epoch [18/20] Train Loss: 0.8607, Train Acc: 70.04% | Val Loss: 0.5298, Val Acc: 82.37%
+Epoch [19/20] Train Loss: 0.8549, Train Acc: 70.29% | Val Loss: 0.5815, Val Acc: 80.88%
+Epoch [20/20] Train Loss: 0.8437, Train Acc: 70.67% | Val Loss: 0.6234, Val Acc: 79.93%

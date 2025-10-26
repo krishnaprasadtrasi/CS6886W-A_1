@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            8dpaedoxs4x572f87ynvmaqs8ykem1nd:
+                args:
+                    - --sweep_id=im94g1mz
+                    - --project=wandb_vgg_experiments_3
+                    - --count=25
+                codePath: trainer.py
+                codePathLocal: trainer.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "633348288512"
+                        used: "216064217088"
+                email: krishnaprasad.kps@gmail.com
+                executable: C:\Users\DDA\AppData\Local\Programs\Python\Python311\python.exe
+                gpu: NVIDIA GeForce MX550
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 1024
+                      memoryTotal: "2147483648"
+                      name: NVIDIA GeForce MX550
+                      uuid: GPU-2cce8961-eec1-5574-8de8-8482300c2315
+                host: DESKTOP-59ENVD4
+                memory:
+                    total: "68388864000"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py
+                python: CPython 3.11.9
+                root: C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep
+                startedAt: "2025-10-19T08:17:53.974182Z"
+                writerId: 8dpaedoxs4x572f87ynvmaqs8ykem1nd
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 3
+                - 14
+            "4": 3.11.9
+            "5": 0.22.2
+            "8":
+                - 3
+            "12": 0.22.2
+            "13": windows-amd64
+activation:
+    value: relu
+batch_norm:
+    value: false
+batch_size:
+    value: 256
+dropout:
+    value: 0.3
+epochs:
+    value: 20
+learning_rate:
+    value: 0.001
+momentum:
+    value: 0.9
+num_classes:
+    value: 10
+optimizer:
+    value: adagrad
+seed:
+    value: 42
+vgg_architecture:
+    value:
+        - 64
+        - 64
+        - M
+        - 128
+        - 128
+        - M
+weight_decay:
+    value: 1e-05

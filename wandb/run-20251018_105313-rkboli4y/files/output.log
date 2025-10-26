@@ -1,0 +1,49 @@
+Training run name: genial-sweep-5 ...
+Epoch [1/50] Train Loss: 2.3173, Train Acc: 15.99% | Val Loss: 2.2261, Val Acc: 20.42%
+Epoch [2/50] Train Loss: 2.1566, Train Acc: 19.85% | Val Loss: 2.0229, Val Acc: 23.72%
+Epoch [3/50] Train Loss: 2.0549, Train Acc: 23.77% | Val Loss: 1.9836, Val Acc: 25.93%
+Epoch [4/50] Train Loss: 1.9744, Train Acc: 26.69% | Val Loss: 1.7867, Val Acc: 34.54%
+Epoch [5/50] Train Loss: 1.9119, Train Acc: 29.60% | Val Loss: 1.9048, Val Acc: 32.35%
+Epoch [6/50] Train Loss: 1.8677, Train Acc: 31.63% | Val Loss: 1.7359, Val Acc: 36.43%
+Epoch [7/50] Train Loss: 1.8368, Train Acc: 33.30% | Val Loss: 1.6846, Val Acc: 40.29%
+Epoch [8/50] Train Loss: 1.8085, Train Acc: 34.20% | Val Loss: 1.6911, Val Acc: 37.94%
+Epoch [9/50] Train Loss: 1.7836, Train Acc: 35.19% | Val Loss: 1.5958, Val Acc: 41.26%
+Epoch [10/50] Train Loss: 1.7608, Train Acc: 36.40% | Val Loss: 1.4767, Val Acc: 47.04%
+Epoch [11/50] Train Loss: 1.7410, Train Acc: 37.29% | Val Loss: 1.4914, Val Acc: 45.60%
+Epoch [12/50] Train Loss: 1.7303, Train Acc: 37.81% | Val Loss: 1.4780, Val Acc: 45.63%
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 36, in train
+    train_model(model, trainloader, testloader, config, device, wanrun)
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 55, in train_model
+    train_loss, train_acc = train_epoch(model, trainloader, criterion, optimizer, device)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 17, in train_epoch
+    for batch_idx, (inputs, targets) in enumerate(trainloader):
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 732, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 1482, in _next_data
+    idx, data = self._get_data()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 1444, in _get_data
+    success, data = self._try_get_data()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 1275, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\queues.py", line 113, in get
+    if not self._poll(timeout):
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\connection.py", line 346, in _poll
+    return bool(wait([self], timeout))
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\connection.py", line 896, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\connection.py", line 828, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception

@@ -1,0 +1,43 @@
+Training run name: driven-sweep-5 ...
+Epoch [1/20] Train Loss: 2.1443, Train Acc: 20.95% | Val Loss: 1.9265, Val Acc: 28.37%
+Epoch [2/20] Train Loss: 2.0586, Train Acc: 25.27% | Val Loss: 1.9216, Val Acc: 27.59%
+Epoch [3/20] Train Loss: 2.0176, Train Acc: 26.49% | Val Loss: 1.7999, Val Acc: 33.46%
+Epoch [4/20] Train Loss: 1.9926, Train Acc: 27.78% | Val Loss: 1.7760, Val Acc: 35.06%
+Epoch [5/20] Train Loss: 1.9754, Train Acc: 28.28% | Val Loss: 1.7637, Val Acc: 34.39%
+Epoch [6/20] Train Loss: 1.9650, Train Acc: 29.11% | Val Loss: 1.7335, Val Acc: 37.46%
+Epoch [7/20] Train Loss: 1.9498, Train Acc: 29.90% | Val Loss: 1.7356, Val Acc: 35.62%
+Epoch [8/20] Train Loss: 1.9365, Train Acc: 30.34% | Val Loss: 1.6908, Val Acc: 38.32%
+Epoch [9/20] Train Loss: 1.9251, Train Acc: 30.77% | Val Loss: 1.6957, Val Acc: 38.63%
+Epoch [10/20] Train Loss: 1.9200, Train Acc: 30.86% | Val Loss: 1.6870, Val Acc: 39.04%
+Epoch [11/20] Train Loss: 1.9098, Train Acc: 31.27% | Val Loss: 1.6400, Val Acc: 40.56%
+Epoch [12/20] Train Loss: 1.9020, Train Acc: 31.68% | Val Loss: 1.6686, Val Acc: 39.25%
+Epoch [13/20] Train Loss: 1.8953, Train Acc: 32.17% | Val Loss: 1.6282, Val Acc: 42.04%
+Epoch [14/20] Train Loss: 1.8877, Train Acc: 32.25% | Val Loss: 1.6541, Val Acc: 38.92%
+Epoch [15/20] Train Loss: 1.8813, Train Acc: 32.25% | Val Loss: 1.6586, Val Acc: 40.35%
+Epoch [16/20] Train Loss: 1.8767, Train Acc: 32.71% | Val Loss: 1.6120, Val Acc: 41.43%
+Epoch [17/20] Train Loss: 1.8682, Train Acc: 33.08% | Val Loss: 1.6387, Val Acc: 40.10%
+Epoch [18/20] Train Loss: 1.8656, Train Acc: 33.37% | Val Loss: 1.6078, Val Acc: 41.79%
+Epoch [19/20] Train Loss: 1.8574, Train Acc: 33.28% | Val Loss: 1.6165, Val Acc: 41.30%
+Epoch [20/20] Train Loss: 1.8539, Train Acc: 33.63% | Val Loss: 1.6121, Val Acc: 41.62%
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 38, in train
+    train_model(model, trainloader, testloader, config, device, wanrun)
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 75, in train_model
+    wanrun.save("model.pth", policy="now")
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 444, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 2129, in save
+    return self._save(
+           ^^^^^^^^^^^
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_run.py", line 2188, in _save
+    target_path.symlink_to(source_path)
+  File "C:\Users\DDA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1198, in symlink_to
+    os.symlink(target, self, target_is_directory)
+OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\DDA\\Downloads\\CS6886W-sweep\\CS6886W-sweep\\model.pth' -> 'C:\\Users\\DDA\\Downloads\\CS6886W-sweep\\CS6886W-sweep\\wandb\\run-20251019_134753-g8v9txnn\\files\\model.pth'

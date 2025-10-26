@@ -1,0 +1,16 @@
+Training run name: fast-sweep-20 ...
+Epoch [1/20] Train Loss: 2.2382, Train Acc: 17.65% | Val Loss: 2.0601, Val Acc: 25.55%
+Epoch [2/20] Train Loss: 2.0474, Train Acc: 23.70% | Val Loss: 2.4753, Val Acc: 20.73%
+Epoch [3/20] Train Loss: 1.9943, Train Acc: 26.18% | Val Loss: 1.7862, Val Acc: 32.03%
+Epoch [4/20] Train Loss: 1.9678, Train Acc: 27.45% | Val Loss: 1.8836, Val Acc: 31.59%
+Epoch [5/20] Train Loss: 1.9557, Train Acc: 28.19% | Val Loss: 1.8568, Val Acc: 32.94%
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 36, in train
+    train_model(model, trainloader, testloader, config, device, wanrun)
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 55, in train_model
+    train_loss, train_acc = train_epoch(model, trainloader, criterion, optimizer, device)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\train.py", line 33, in train_epoch
+    running_loss += loss.item()
+                    ^^^^^^^^^^^
+Exception

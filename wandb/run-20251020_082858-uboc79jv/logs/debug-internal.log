@@ -1,0 +1,12 @@
+{"time":"2025-10-20T08:29:00.9312803+05:30","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-20T08:29:02.089171+05:30","level":"INFO","msg":"stream: created new stream","id":"uboc79jv"}
+{"time":"2025-10-20T08:29:02.089712+05:30","level":"INFO","msg":"handler: started","stream_id":"uboc79jv"}
+{"time":"2025-10-20T08:29:02.1084254+05:30","level":"INFO","msg":"stream: started","id":"uboc79jv"}
+{"time":"2025-10-20T08:29:02.1084254+05:30","level":"INFO","msg":"writer: started","stream_id":"uboc79jv"}
+{"time":"2025-10-20T08:29:02.1084254+05:30","level":"INFO","msg":"sender: started","stream_id":"uboc79jv"}
+{"time":"2025-10-20T09:27:31.1108896+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact vgg","runtime_seconds":1.8828404,"subtasks":[{"desc":"model.pth","runtime_seconds":0.548636,"progress":"1.0MB/1.0MB"}]},{"desc":"updating run metadata","runtime_seconds":0.0025911}],"total_operations":2}}
+{"time":"2025-10-20T09:27:34.3074535+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T09:27:34.6580041+05:30","level":"INFO","msg":"stream: closing","id":"uboc79jv"}
+{"time":"2025-10-20T09:27:34.6580041+05:30","level":"INFO","msg":"handler: closed","stream_id":"uboc79jv"}
+{"time":"2025-10-20T09:27:34.659232+05:30","level":"INFO","msg":"sender: closed","stream_id":"uboc79jv"}
+{"time":"2025-10-20T09:27:34.659232+05:30","level":"INFO","msg":"stream: closed","id":"uboc79jv"}

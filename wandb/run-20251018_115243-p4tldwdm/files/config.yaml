@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            uti22fe9gegnsshzc2ypsn8ctpbg1opz:
+                args:
+                    - --sweep_id=l44wkssl
+                    - --project=wandb_vgg_experiments
+                    - --count=20
+                codePath: trainer.py
+                codePathLocal: trainer.py
+                email: krishnaprasad.kps@gmail.com
+                executable: C:\Users\DDA\AppData\Local\Programs\Python\Python311\python.exe
+                host: DESKTOP-59ENVD4
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py
+                python: CPython 3.11.9
+                root: C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep
+                startedAt: "2025-10-18T06:22:43.794483Z"
+                writerId: uti22fe9gegnsshzc2ypsn8ctpbg1opz
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 14
+            "4": 3.11.9
+            "5": 0.22.2
+            "8":
+                - 3
+            "12": 0.22.2
+            "13": windows-amd64
+activation:
+    value: tanh
+batch_norm:
+    value: false
+batch_size:
+    value: 128
+dropout:
+    value: 0.5
+epochs:
+    value: 50
+learning_rate:
+    value: 0.001
+momentum:
+    value: 0.5
+num_classes:
+    value: 10
+optimizer:
+    value: nesterov_sgd
+vgg_architecture:
+    value:
+        - 64
+        - 64
+        - M
+        - 128
+        - 128
+        - M
+weight_decay:
+    value: 0.0001

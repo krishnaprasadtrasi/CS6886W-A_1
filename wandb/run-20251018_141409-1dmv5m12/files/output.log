@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\trainer.py", line 33, in train
+    model = make_vgg(config)
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\util.py", line 67, in make_vgg
+    layers = make_layers(config.vgg_architecture, batch_norm=config.batch_norm, activation=config.activation)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\util.py", line 59, in make_layers
+    layers += [conv2d, get_activation_function(activation)]
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DDA\Downloads\CS6886W-sweep\CS6886W-sweep\utils\util.py", line 29, in get_activation_function
+    raise ValueError(f"Activation function {activation_name} not supported")
+ValueError: Activation function sigmoid not supported

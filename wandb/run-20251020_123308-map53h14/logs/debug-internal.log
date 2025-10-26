@@ -1,0 +1,12 @@
+{"time":"2025-10-20T12:33:10.5794871+05:30","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-20T12:33:11.0799827+05:30","level":"INFO","msg":"stream: created new stream","id":"map53h14"}
+{"time":"2025-10-20T12:33:11.0799827+05:30","level":"INFO","msg":"handler: started","stream_id":"map53h14"}
+{"time":"2025-10-20T12:33:11.0822923+05:30","level":"INFO","msg":"stream: started","id":"map53h14"}
+{"time":"2025-10-20T12:33:11.0828021+05:30","level":"INFO","msg":"writer: started","stream_id":"map53h14"}
+{"time":"2025-10-20T12:33:11.0828021+05:30","level":"INFO","msg":"sender: started","stream_id":"map53h14"}
+{"time":"2025-10-20T14:39:29.2885729+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact vgg","runtime_seconds":1.8013126000000002,"subtasks":[{"desc":"model.pth","runtime_seconds":0.387634,"progress":"1.0MB/1.0MB"}]},{"desc":"updating run metadata","runtime_seconds":0.0043009}],"total_operations":2}}
+{"time":"2025-10-20T14:39:32.6886606+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T14:39:33.0879469+05:30","level":"INFO","msg":"stream: closing","id":"map53h14"}
+{"time":"2025-10-20T14:39:33.0889583+05:30","level":"INFO","msg":"handler: closed","stream_id":"map53h14"}
+{"time":"2025-10-20T14:39:33.0895726+05:30","level":"INFO","msg":"sender: closed","stream_id":"map53h14"}
+{"time":"2025-10-20T14:39:33.0895726+05:30","level":"INFO","msg":"stream: closed","id":"map53h14"}

@@ -1,0 +1,14 @@
+{"time":"2025-10-20T11:54:58.3935445+05:30","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-20T11:54:58.8733306+05:30","level":"INFO","msg":"stream: created new stream","id":"6ew9qmej"}
+{"time":"2025-10-20T11:54:58.8740116+05:30","level":"INFO","msg":"handler: started","stream_id":"6ew9qmej"}
+{"time":"2025-10-20T11:54:58.8758+05:30","level":"INFO","msg":"stream: started","id":"6ew9qmej"}
+{"time":"2025-10-20T11:54:58.8758+05:30","level":"INFO","msg":"writer: started","stream_id":"6ew9qmej"}
+{"time":"2025-10-20T11:54:58.8758+05:30","level":"INFO","msg":"sender: started","stream_id":"6ew9qmej"}
+{"time":"2025-10-20T12:18:00.2028663+05:30","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/krishnaprasad-student/wandb_vgg_experiments_4/6ew9qmej/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-10-20T12:18:02.9650365+05:30","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/krishnaprasad-student/wandb_vgg_experiments_4/6ew9qmej/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-10-20T12:32:57.6291524+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact vgg","runtime_seconds":1.9329969,"subtasks":[{"desc":"model.pth","runtime_seconds":0.56579,"progress":"1.0MB/1.0MB"}]},{"desc":"updating run metadata","runtime_seconds":0.0033339}],"total_operations":2}}
+{"time":"2025-10-20T12:33:02.0160514+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T12:33:02.3759567+05:30","level":"INFO","msg":"stream: closing","id":"6ew9qmej"}
+{"time":"2025-10-20T12:33:02.3759567+05:30","level":"INFO","msg":"handler: closed","stream_id":"6ew9qmej"}
+{"time":"2025-10-20T12:33:02.3765283+05:30","level":"INFO","msg":"sender: closed","stream_id":"6ew9qmej"}
+{"time":"2025-10-20T12:33:02.3765283+05:30","level":"INFO","msg":"stream: closed","id":"6ew9qmej"}

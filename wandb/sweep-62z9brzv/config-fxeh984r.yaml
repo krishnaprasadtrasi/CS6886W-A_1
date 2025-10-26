@@ -1,0 +1,32 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_norm:
+  value: true
+batch_size:
+  value: 64
+dropout:
+  value: 0.5
+epochs:
+  value: 20
+learning_rate:
+  value: 0.001
+momentum:
+  value: 0.7
+num_classes:
+  value: 10
+optimizer:
+  value: adagrad
+seed:
+  value: 42
+vgg_architecture:
+  value:
+  - 64
+  - 64
+  - M
+  - 128
+  - 128
+  - M
+weight_decay:
+  value: 0.0005

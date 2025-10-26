@@ -1,0 +1,13 @@
+{"time":"2025-10-19T07:35:29.2666494+05:30","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-19T07:35:30.6496032+05:30","level":"INFO","msg":"stream: created new stream","id":"7udhan86"}
+{"time":"2025-10-19T07:35:30.6496032+05:30","level":"INFO","msg":"handler: started","stream_id":"7udhan86"}
+{"time":"2025-10-19T07:35:30.6703819+05:30","level":"INFO","msg":"stream: started","id":"7udhan86"}
+{"time":"2025-10-19T07:35:30.6703819+05:30","level":"INFO","msg":"writer: started","stream_id":"7udhan86"}
+{"time":"2025-10-19T07:35:30.6703819+05:30","level":"INFO","msg":"sender: started","stream_id":"7udhan86"}
+{"time":"2025-10-19T07:43:17.2556912+05:30","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/krishnaprasad-student/wandb_vgg_experiments_2/7udhan86/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-19T07:52:26.3950484+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.0838558}],"total_operations":1}}
+{"time":"2025-10-19T07:52:28.4304664+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T07:52:28.8453979+05:30","level":"INFO","msg":"stream: closing","id":"7udhan86"}
+{"time":"2025-10-19T07:52:28.8459189+05:30","level":"INFO","msg":"handler: closed","stream_id":"7udhan86"}
+{"time":"2025-10-19T07:52:28.8465171+05:30","level":"INFO","msg":"sender: closed","stream_id":"7udhan86"}
+{"time":"2025-10-19T07:52:28.8465171+05:30","level":"INFO","msg":"stream: closed","id":"7udhan86"}

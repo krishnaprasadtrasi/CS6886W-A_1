@@ -1,0 +1,32 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+batch_norm:
+  value: false
+batch_size:
+  value: 256
+dropout:
+  value: 0.3
+epochs:
+  value: 20
+learning_rate:
+  value: 0.1
+momentum:
+  value: 0.5
+num_classes:
+  value: 10
+optimizer:
+  value: nadam
+seed:
+  value: 42
+vgg_architecture:
+  value:
+  - 64
+  - 64
+  - M
+  - 128
+  - 128
+  - M
+weight_decay:
+  value: 1.0e-05
