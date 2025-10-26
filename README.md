@@ -53,7 +53,7 @@ wandb sweep config.json -e <username> -p <project_name>
 
 **Example:**
 ```bash
-wandb sweep config.json -e krishnaprasad-student -p vgg_experiments
+wandb sweep config.json -e krishnaprasad-student -p wandb_vgg_experiments_4 
 ```
 
 **Output:** This command will return a **Sweep ID** (e.g., `ug2uxgsu`). **Copy and save this ID** - you'll need it for the next step.
@@ -81,24 +81,24 @@ python trainer.py --sweep_id=62z9brzv --project=wandb_vgg_experiments_4 --count=
    download_model.ipynb
    ```
 
-2. **Run the notebook and provide:**
+2. **Run the notebook and provide below details at the beginning of file:**
    - **Username**: Username of wandb.io account
    - **Project Name**: Project name
-   - **Run ID**: Needed only if Option B manual download option chosen .Get this from your wandb dashboard like by identifying the run which has maximum validation accuracy (best performing run)
+   - **Run ID**: Needed only if Option B (manual download option) chosen. Get this from your wandb dashboard like by identifying the run which has maximum validation accuracy (best performing run) Ex: hi5mjzjd
    - The notebook will download the previously trained model from wandb.io and **print the local file path**
 
 
    ### Option A: Automatically select best model (based on validation accuracy) -By default
          run = get_best_run(username, project_name)
-      #### Only Username and Project Name are required. Run Id if any ignored. This will fetch the run with the highest validation accuracy and download the corresponding model.
+       Only Username and Project Name are required. Run Id if any provided will be ignored. This will fetch the run with the highest validation accuracy automatically and download the corresponding model.
 
    ### Option B: to download model using specific Run ID
-      #### Comment the line above and uncomment this instead in download_model.ipynb file and also provide valid run id at the beginning
+       Comment the line above and uncomment this belwo line instead in download_model.ipynb file and also provide valid run id at the beginning
          run = get_run(username, project_name, run_id)
 
 ### Step 4: Test the Model
 
- Seed configuration has been set in config.json file. "seed": { "value": 42 }
+Seed configuration has been set in config.json file. "seed": { "value": 42 }
 
 ```bash
 python tester.py <path_to_model>
